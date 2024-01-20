@@ -1,0 +1,27 @@
+.product {
+    &__gallery {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        gap: var(--space-m);
+        margin-block-start: var(--space-m);
+        &-button {
+         display: flex;
+         align-items: center;
+         border: .15rem solid transparent; 
+         border-radius: .5rem; 
+         overflow: hidden;
+            &:hover, &:focus {
+                border: .15rem solid var(--clr-border-primary-dark);
+            };
+        };
+        &-img0,
+        &-img1,
+        &-img2,
+        &-img3 {
+            &:hover, &:focus {
+                cursor: pointer;
+                opacity: .5;
+            };
+        };
+    };
+};

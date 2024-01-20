@@ -1,0 +1,155 @@
+@use '../globals/config' as *;
+
+.product {
+    &--largescreen {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        align-items: center;
+        justify-content: center;
+        width: 80%;
+        margin-inline: auto;
+        margin-block: var(--space-xxl);
+        gap: var(--space-l);
+    }
+    
+    &__image {
+        width: 100%;
+        &:hover {
+            cursor: pointer;
+        }
+
+        &-wrapper {
+            position: relative;
+        }
+        
+        &-button--previous, &-button--next {
+            position: absolute;
+            padding: .5em 0.6875em;
+            top: 45%;
+            background-color: var(--clr-bg-neutral-100);
+            border-radius: var(--br-full);
+        }
+        &-button--previous {
+            left: 5%;
+        }
+        &-button--next {
+            right: 5%;
+        }        
+        &--largescreen {
+            border-radius: 1rem;
+        }
+    }
+    &__wrapper {
+        margin: var(--space-l);
+        &--smallscreen {
+            margin-block-end: var(--space-4xl);}
+    }
+    &__article-name {
+        color: var(--clr-txt-primary-dark);
+        font-size: var(--fs-500);
+        font-weight: var(--fw-700);
+        text-transform: uppercase;
+        letter-spacing: var(--ls-xxl);
+    }
+    &__article-title {
+        font-size: var(--fs-700);
+        font-weight: var(--fw-700);
+        letter-spacing: var(--ls-l);
+        padding-block: var(--space-m);
+    }
+    &__article-text {
+        color: var(--clr-txt-neutral-400);
+        line-height: var(--lh-m);
+    }
+    &__price-wrapper {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-block: var(--space-xl);
+        &--largescreen {
+            display: flex;
+            flex-direction: column;
+            margin-block: var(--space-xl);
+            gap: var(--space-xs);
+        }
+    }
+    &__price-subwrapper {
+        display: flex;
+        align-items: center;
+        gap: var(--space-m);
+    }
+    &__price-net {
+        font-size: var(--fs-700);
+        font-weight: var(--fw-700);
+        letter-spacing: var(--ls-l);
+    }
+    &__price-discount {
+        color: var(--clr-txt-primary-dark);
+        font-size: var(--fs-600);
+        font-weight: var(--fw-700);
+        padding: var(--space-xxs) var(--space-s);
+        background-color: var(--clr-bg-primary-light);
+        border-radius: .25rem;
+    }
+    &__price-gross {
+        color: var(--clr-txt-neutral-300);
+        font-size: var(--fs-600);
+        font-weight: var(--fw-700);
+        letter-spacing: var(--ls-l);
+        text-decoration: line-through;
+    }
+    &__cta-wrapper {
+        display: flex;
+        flex-direction: column;
+        gap: var(--space-l);
+        &--largescreen {
+            display: grid;
+            grid-template-columns: 1fr 2fr;
+            gap: var(--space-m);
+        }
+    }
+    &__cta-button--neutral {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height: 3.5rem;
+        background-color: var(--clr-bg-neutral-200);
+        border-radius: .75rem;
+    }
+    &__cta-button-minus {
+        padding: 1rem;
+        background-color: var(--clr-bg-neutral-200);
+        display: flex;
+        &:hover {
+            cursor: pointer;
+        }
+    }
+    &__cta-button-amount {
+        font-weight: var(--fw-700);
+    }
+    &__cta-button-plus {
+        padding: 1rem;
+        display: flex;
+        //margin-inline-end: 1rem;
+        &:hover {
+            cursor: pointer;
+        }
+    }
+    &__cta-button--primary {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: var(--space-m);
+        height: 3.5rem;
+        background-color: var(--clr-bg-primary-dark);
+        border-radius: .75rem;
+        box-shadow: 0 1rem 1rem .75rem var(--clr-border-primary-light);
+        &:hover {
+            cursor: pointer;
+        }
+    }
+    &__cta-button-text {
+        color: var(--clr-txt-neutral-100);
+        font-weight: var(--fw-700);
+    }
+}
