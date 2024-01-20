@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/ecommerce-productpage/static/css/main.9bb4ecee.css",
+    "main.js": "/ecommerce-productpage/static/js/main.d291e916.js",
+    "static/media/image-product-2.jpg": "/ecommerce-productpage/static/media/image-product-2.c8bb0aaccecdebb16596.jpg",
+    "static/media/image-product-1.jpg": "/ecommerce-productpage/static/media/image-product-1.520cc50bd13955f55cb2.jpg",
+    "static/media/image-product-3.jpg": "/ecommerce-productpage/static/media/image-product-3.af5c71ba9ffcc0b8b54d.jpg",
+    "static/media/image-product-4.jpg": "/ecommerce-productpage/static/media/image-product-4.9962862ef3eff6d65e5b.jpg",
+    "static/media/logo.svg": "/ecommerce-productpage/static/media/logo.4fe9c1e86cf9bf600f0c239f6a6e5317.svg",
+    "static/media/icon-delete.svg": "/ecommerce-productpage/static/media/icon-delete.1fd1f1f7d9f8ce5557b44ca3470a18b8.svg",
+    "static/media/icon-cart-white.svg": "/ecommerce-productpage/static/media/icon-cart-white.e1438c4352a7c6e27fc2647578c4466e.svg",
+    "static/media/icon-cart.svg": "/ecommerce-productpage/static/media/icon-cart.539ec608f50e707c94d583ec11acf99d.svg",
+    "index.html": "/ecommerce-productpage/index.html",
+    "static/media/icon-plus.svg": "/ecommerce-productpage/static/media/icon-plus.b297868c5f938612f4f099f9f9d73aea.svg",
+    "static/media/icon-minus.svg": "/ecommerce-productpage/static/media/icon-minus.f5073aa8273785ecf6b7811630782736.svg",
+    "static/media/icon-close.svg": "/ecommerce-productpage/static/media/icon-close.792c864b294b07c84989fb8e7f801aa9.svg",
+    "static/media/icon-menu.svg": "/ecommerce-productpage/static/media/icon-menu.c6107d03f1edcf73523ebd8cbc50a443.svg",
+    "static/media/icon-previous.svg": "/ecommerce-productpage/static/media/icon-previous.80616402c611cc0a6651d0b751da8a9b.svg",
+    "static/media/icon-next.svg": "/ecommerce-productpage/static/media/icon-next.9621183a551a9985b4bd7536c9a69c66.svg",
+    "main.9bb4ecee.css.map": "/ecommerce-productpage/static/css/main.9bb4ecee.css.map",
+    "main.d291e916.js.map": "/ecommerce-productpage/static/js/main.d291e916.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9bb4ecee.css",
+    "static/js/main.d291e916.js"
+  ]
+}
